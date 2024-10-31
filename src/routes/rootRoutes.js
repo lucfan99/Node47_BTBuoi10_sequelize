@@ -1,7 +1,7 @@
-import express from 'express';
-import likeResRoutes from './likeResroutes.js';
-import rateResRoutes from './rateResRoutes.js';
-import orderRoutes from './OrderRoutes.js';
+import express from "express";
+import likeResRoutes from "./likeResRoutes.js";
+import rateResRoutes from "./rateResRoutes.js";
+import orderRoutes from "./OrderRoutes.js";
 
 const rootRoutes = express.Router();
 rootRoutes.use(likeResRoutes);
